@@ -1,0 +1,10 @@
+﻿no,aspek,status,bukti,keterangan
+1,Legalitas sumber data,Diperiksa,https://www.openstreetmap.org/copyright,Sumber data publik OpenStreetMap dan akses Overpass API diizinkan.
+2,Ketentuan penggunaan API,Diperiksa,Endpoint https://overpass-api.de/api/interpreter (Sel 36),Query dibatasi hanya wilayah Bali untuk kategori wisata sesuai aturan fair use.
+3,Kepatuhan lisensi,Diperiksa,docs/provenance.json & bagian 2 README,Lisensi Open Database License (ODbL) dan atribusi © OpenStreetMap contributors telah dicantumkan.
+4,Perlindungan data pribadi,Diperiksa,Output tabel df.head() (Sel 38),"Dataset hanya memuat informasi tempat wisata publik, tanpa data pribadi individu."
+5,Transparansi identitas,Diperiksa,Variabel HEADERS User-Agent (Sel 11),User-Agent telah mencantumkan nama pengambil dan email resmi kampus.
+6,Pembatasan frekuensi request,Diperiksa,"time.sleep(15) dan timeout=(15, 120) (Sel 36)",Diterapkan jeda antar-request selama 15 detik untuk mencegah beban berlebih pada server.
+7,Keamanan kredensial,Diperiksa,Seluruh sel kode pada DemoUts.ipynb,"Tidak ada API key, token rahasia, atau kata sandi yang tersimpan di dalam notebook."
+8,Integritas data,Diperiksa,data/raw/tempat_wisata_bali_20261115.csv & hash MD5 di provenance.json,File dataset mentah tidak diubah secara manual dan memiliki hash MD5 sebagai bukti keaslian.
+9,Dokumentasi provenance,Diperiksa,docs/provenance.json & sel dokumentasi README,"Sumber, waktu akuisisi, lisensi, dan identitas pengambil telah tercatat lengkap."

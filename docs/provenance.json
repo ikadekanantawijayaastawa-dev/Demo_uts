@@ -1,0 +1,15 @@
+{
+    "filename": "tempat_wisata_bali_20261116.csv",
+    "file_size_bytes": 44528,
+    "md5": "33b0140c745a22612204000327463901",
+    "source": "OpenStreetMap",
+    "url": "https://www.openstreetmap.org/",
+    "api": "https://overpass-api.de/api/interpreter",
+    "license": "Open Database License (ODbL)",
+    "attribution": "© OpenStreetMap contributors",
+    "acquisition_time": "2026-11-16T09:44:57.622359+00:00",
+    "collector": {
+        "name": " I KADEK ANANTA WIJAYA ASTAWA",
+        "nim": "2501010124"
+    }
+}
